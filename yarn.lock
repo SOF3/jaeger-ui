@@ -3181,11 +3181,11 @@
     "@types/react" "*"
 
 "@types/react-virtualized-select@^3.0.7":
-  version "3.0.11"
-  resolved "https://registry.yarnpkg.com/@types/react-virtualized-select/-/react-virtualized-select-3.0.11.tgz#d50ada4939a86d9e7cd869da9f67c5a982d037c5"
-  integrity sha512-1dgomao+k+ftr4+eNpeQ3U4FN2QMiRHOZdaddaNj60w2vK9PuTPheUmF8lXnEZDjzaESNQTsrdJ02qkqZmhn4g==
+  version "3.0.12"
+  resolved "https://registry.yarnpkg.com/@types/react-virtualized-select/-/react-virtualized-select-3.0.12.tgz#bb06c87e4d545c8084db75d07fce6a636c066f7a"
+  integrity sha512-xDjql+6GwB+9MSdXWi/YNIkVRa7giY8k3XWO/4znwQHLBnSXiiyTR6wIlsr4vpru+bTsXzMs60eokkeNVf6PPg==
   dependencies:
-    "@types/react" "*"
+    "@types/react" "^17"
     "@types/react-select" "^1.0.0"
     "@types/react-virtualized" "*"
 
@@ -3203,12 +3203,14 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react@*":
-  version "16.8.7"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.8.7.tgz#7b1c0223dd5494f9b4501ad2a69aa6acb350a29b"
+"@types/react@*", "@types/react@^17":
+  version "17.0.52"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.52.tgz#10d8b907b5c563ac014a541f289ae8eaa9bf2e9b"
+  integrity sha512-vwk8QqVODi0VaZZpDXQCmEmiOuyjEFPY7Ttaw5vjM112LOq37yz1CDJGrRJwA1fYEq4Iitd5rnjd1yWAc/bT+A==
   dependencies:
     "@types/prop-types" "*"
-    csstype "^2.2.0"
+    "@types/scheduler" "*"
+    csstype "^3.0.2"
 
 "@types/react@^16", "@types/react@^16.14.0":
   version "16.14.34"
@@ -6234,10 +6236,6 @@ cssstyle@^2.3.0:
   integrity sha512-AZL67abkUzIuvcHqk7c09cezpGNcxUxU4Ioi/05xHk4DQeTkWmGYftIE6ctU6AEt+Gn4n1lDStOtj7FKycP71A==
   dependencies:
     cssom "~0.3.6"
-
-csstype@^2.2.0:
-  version "2.6.3"
-  resolved "https://registry.yarnpkg.com/csstype/-/csstype-2.6.3.tgz#b701e5968245bf9b08d54ac83d00b624e622a9fa"
 
 csstype@^3.0.2:
   version "3.1.1"
